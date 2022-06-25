@@ -18,10 +18,10 @@ import 'package:flutter_application_1/SelectableDemo.dart';
 import 'package:flutter_application_1/TabBardemo.dart';
 import 'package:flutter_application_1/menusdemo.dart';
 import 'package:flutter_application_1/TextWidgetDemo.dart';
-import 'MyApp.dart';
-import 'buttonsdemo.dart';
-import 'Screens/Screen0.dart';
-import 'DrawerDemo.dart';
+import 'package:flutter_application_1/MyApp.dart';
+import 'package:flutter_application_1/buttonsdemo.dart';
+import 'package:flutter_application_1/Screens/Screen0.dart';
+import 'package:flutter_application_1/DrawerDemo.dart';
 
 
 void main() {
@@ -46,13 +46,13 @@ void main() {
   //runApp(DataTableDemo());
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-  //  home: DataTableDemo(),
-  //  home: SelectableDemo(),
-  //  home: WhatsappUI(),
-  //  home: GoogleSearchEngine(),
+    // home: DataTableDemo(),
+    // home: SelectableDemo(),
+    // home: WhatsappUI(),
+    // home: GoogleSearchEngine(),
     // home: TextFieldDemo(),
-    // home: SI_Calculator(),
-    home: PizzaApp(),
+    home: SI_Calculator(),
+    // home: PizzaApp(),
   ));
 }
 

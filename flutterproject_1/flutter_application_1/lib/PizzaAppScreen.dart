@@ -21,7 +21,6 @@ class PizzaAppScreen extends StatelessWidget {
                   fontSize: 20,
                   color: Colors.blue
                 ),),
-                Text("Onion, Mushrooms",style: TextStyle(fontSize: 20),)
             ],
           ),
           SizedBox(
